@@ -11,6 +11,7 @@ public class DatosPersonaServiceImplement implements DatosPersonaService {
 		ResponseDatosPersona datosPersona = new ResponseDatosPersona();
 		
 		if(datos.equals("curp")){
+			
 			datosPersona.setNombre("luis");
 			datosPersona.setApellido("rojas");
 			datosPersona.setApellidoMaterno("martinez");
