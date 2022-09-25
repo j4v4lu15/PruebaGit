@@ -40,17 +40,12 @@ public class ResponseDatosPersona {
 	public void setNacionalidad(String nacionalidad) {
 		this.nacionalidad = nacionalidad;
 	}
-	public Object getData() {
-		return data;
-	}
-	public void setData(Object data) {
-		this.data = data;
-	}
+	
 	private String nombre;
 	private String apellido;
 	private String apellidoMaterno;
 	private String apellidoPaterno;
 	private int edad;
 	private String nacionalidad;
-	private Object data;
+	private Object escolaridad;
 }

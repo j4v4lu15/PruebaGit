@@ -25,7 +25,6 @@ public class DatosPersona {
 		ResponseDatosPersona datopersona= new ResponseDatosPersona();
 		
 		datopersona = datosPersonaService.obtenerDatos(request.getCurp());
-		
 		if(datopersona != null) {
 			datoFinal.setCodigo(200);
 			datoFinal.setDescripcion("Consulta Exitosa");

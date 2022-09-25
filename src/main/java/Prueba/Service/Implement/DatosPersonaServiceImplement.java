@@ -10,6 +10,9 @@ public class DatosPersonaServiceImplement implements DatosPersonaService {
 	public ResponseDatosPersona obtenerDatos(String datos){ 
 		ResponseDatosPersona datosPersona = new ResponseDatosPersona();
 		
+		
+		String [] arreglo = {"primaria","secuandaria","licenciatura"};
+		
 		if(datos.equals("curp")){
 			
 			datosPersona.setNombre("luis");
@@ -18,13 +21,13 @@ public class DatosPersonaServiceImplement implements DatosPersonaService {
 			datosPersona.setApellidoPaterno("rojas");
 			datosPersona.setEdad(12);
 			datosPersona.setNacionalidad("mexicano");
+			datosPersona.setEscolaridad(arreglo);
 			}
 		else {
 			return null;
 		}
 			
-			
-		return datosPersona;
+		    return datosPersona;
 	
 		}
 
